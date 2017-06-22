@@ -20,3 +20,5 @@ RUN sed -i.bak -e "s%http://[^ ]\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /
 
 RUN pip install -U --no-cache-dir pip && pip install -U --no-cache-dir \
     nfcpy
+
+CMD ["python"]
